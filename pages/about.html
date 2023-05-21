@@ -1,0 +1,572 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="./../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./../css/style.css">
+    <link rel="stylesheet" type="text/css" href="./../css/helper.css">
+    <link rel="stylesheet" type="text/css" href="./../css/common.css">
+    <link rel="stylesheet" href="./../css/bootstrap/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    <div class="">
+        <a href="./../index.html"><img src="./../images/mount-vita-one.png" /></a>
+    </div>
+    <nav class="navigation__container">
+    <!-- <div class="py-5">
+        <span><i class="fas fa-shopping-cart"></i></span>
+        <span><i class="fas fa-user"></i></span>
+    </div> -->
+    <!-- <span><a href="#">CONTACT</a></span>
+    <span><a href="#">STORE</a></span>
+    <span><a href="#">DISTRIBUTORS</a></span>
+    <span><a href="#">OFFERS</a></span> -->
+    <div>
+        <span><a href="./../pages/about.html">SINCE 1905</a></span>
+        <span class="drop-down__block">DRINKS
+            <div id="" class="flex__d--col drop-down__content">
+                <a href="./../pages/drinks-carbonated.html">CARBONATED</a>
+                <a href="./../pages/drinks-water.html">WATER</a>
+            </div>
+        </span>
+        <!-- <span><a href="/pages/offers.html">OFFERS</a></span> -->
+        <span><a href="./../pages/distributors.html">FIND US</a></span>
+        <!-- <span><a href="#">STORE</a></span> -->
+        <span><a href="./../pages/contact.html">CONTACT</a></span>
+    </div>
+</nav>
+</header>
+<header class="sticky">
+    <div class="">
+        <img src="./../images/mount-vita-two.png" />
+    </div>
+    <nav class="navigation__container">
+    <!-- <div class="py-5">
+        <span><i class="fas fa-shopping-cart"></i></span>
+        <span><i class="fas fa-user"></i></span>
+    </div> -->
+    <!-- <span><a href="#">CONTACT</a></span>
+    <span><a href="#">STORE</a></span>
+    <span><a href="#">DISTRIBUTORS</a></span>
+    <span><a href="#">OFFERS</a></span> -->
+    <div>
+        <span><a href="./../pages/about.html">SINCE 1905</a></span>
+        <span class="drop-down__block">DRINKS
+            <div id="" class="flex__d--col drop-down__content">
+                <a href="./../pages/drinks-carbonated.html">CARBONATED</a>
+                <a href="./../pages/drinks-water.html">WATER</a>
+            </div>
+        </span>
+        <!-- <span><a href="/pages/offers.html">OFFERS</a></span> -->
+        <span><a href="./../pages/distributors.html">FIND US</a></span>
+        <!-- <span><a href="#">STORE</a></span> -->
+        <span><a href="./../pages/contact.html">CONTACT</a></span>
+    </div>
+</nav>
+</header>
+
+    <section id="title-container" class="title__container">
+        <div class="ice-cube-top" style="position: absolute;left: 0;">
+            <div class="ice-cube x-5"></div>
+            <div class="ice-cube x-2"></div>
+            <div class="ice-cube x-1"></div>
+        </div>
+        <div class="ice-cube x-4"></div>
+        <div class="ice-cube x-3"></div>
+        <div class="ml-10" style="background-color: red; width: 15%;">
+
+        </div>
+        <div class="title-bar">
+            
+            
+            <span>Since 1905</span>
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <!-- <div class=""></div> -->
+    </section>
+    <div id="ice-bg-animation" class="ice-animation__container">
+        <!-- <div id="ice-cube-top" class="ice-cube-top show-on-scroll"></div> -->
+        <div class="ice-cube-bottom show-on-scroll"></div>
+        <!-- <div class="shop-skewed-bg__container">
+                <div class="shop-skewed"></div>
+            </div> -->
+        <div class="px-50 canvas-width position-rel mx-auto" style="width: 1366px;z-index: 2;">
+            
+            
+            
+            
+            
+            
+            
+            
+            <style>
+    li {
+        float: left;
+    }
+
+    .timeline__block .year,
+    .timeline__block .year span {
+        display: block;
+        border-radius: 50%;
+    }
+
+    /* .timeline__block div {
+        justify-content: space-around;
+    } */
+
+    .timeline__block .nav-items>div:not(.year) {
+        font-size: 10px;
+        align-items: center;
+        padding: 0 5px;
+        display: flex;
+    }
+
+    .timeline__block .year {
+        width: 100px;
+        height: 100px;
+        border: thin solid #848484;
+    }
+
+    .timeline__block .year span {
+        font-size: 26px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        margin: 4px;
+        background-color: transparent;
+        color: #848484;
+        justify-content: center;
+    }
+
+    .timeline__block .year:hover~.timeline__block .year {
+        border: thin solid #848484;
+
+    }
+
+    .timeline__block .year.active span,
+    .timeline__block .year:hover span {
+        color: white;
+        cursor: pointer;
+        /* border: thin solid #254989; */
+        background-color: #254989;
+    }
+
+    .timeline__block .details {
+        display: none;
+        margin: 1rem 0;
+        justify-content: center;
+    }
+
+    .timeline__block .details h1 {
+        font-size: 70px;
+        font-weight: bold;
+        color: #ef4235;
+        margin: 0;
+    }
+
+    .timeline__block .details p {
+        font-size: 28px;
+        color: #848484;
+    }
+
+    .timeline__block .nav-items {
+        width: 100%;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        margin: 3rem 0;
+    }
+
+    /* .timeline__block .position-rel {
+        margin-left: 150px
+    } */
+
+    .about__container .timeline-hide .fadeInLeft,
+    .about__container .timeline-hide .fadeInTop,
+    .about__container .timeline-hide .fadeIn,
+    .about__container .timeline-hide .fadeInRight,
+    .about__container .timeline-hide .fadeInBottom,
+    .about__container .timeline-hide .fadeInRight-short {
+        opacity: 0;
+        will-change: transform, opacity;
+        transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1), opacity 0.3s 0.25s ease-out, opacity 0.3s 0.25s ease-in;
+    }
+
+    .about__container .show .fadeInTop {
+        opacity: 1;
+        animation: entry-from-top ease 1s;
+    }
+
+    .about__container .show .fadeInLeft {
+        opacity: 1;
+        animation: entry-from-left ease 1s;
+    }
+
+    .about__container .show .fadeInRight {
+        opacity: 1;
+        animation: entry-from-right ease 1s;
+    }
+
+    .about__container .show .fadeInRight-short {
+        opacity: 1;
+        /* animation: entry-right-100; */
+        animation-name: entry-right-100;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+    }
+
+    .about__container .show .fadeInBottom {
+        opacity: 1;
+        animation: entry-from-bottom ease 1s;
+    }
+
+    .about__container .show .fadeIn {
+        opacity: 1;
+        animation: fade-in ease 1s;
+    }
+</style>
+<div class="about__container">
+    <div class="timeline__block timeline-hide">
+        <div class="flex__d nav-items fadeIn">
+            <div id="1900" class="year"><span>1900</span></div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div id="1940" class="year"><span>1940</span></div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div id="1950" class="year"><span>1950</span></div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div id="1960" class="year"><span>1960</span></div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div id="1980" class="year"><span>1980</span></div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div id="2000" class="year"><span>2000</span></div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div id="2010" class="year"><span>2010</span></div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div>&#9679;</div>
+            <div id="2020" class="year"><span>2020</span></div>
+        </div>
+        <div id="1900-detail" class="details flex__d flex__d--col">
+            <div class="flex__d">
+                <div class="flex__d timeline-hide flex__size--3">
+                    <div class="fadeInLeft pt-50 t-align--center">
+                        <h1>1905</h1>
+                        <p>Claud A. Hatcher creates
+                            Royal Crown Ginger Ale
+                            in Columbus, GA, USA</p>
+                    </div>
+                    <div class="fadeInTop"><img src="./../images/timeline/timeline2.png"></div>
+                </div>
+                <div class="flex__d flex__d--col flex__align--end timeline-hide mob__view--row flex__size--2">
+                    <div class="pt-110"><img class="fadeInTop pull-right" src="./../images/timeline/timeline1.png">
+                    </div>
+
+                </div>
+            </div>
+            <div class="fadeInRight t-align--center flex__d  mob__view--wp-100">
+                <div class="flex__size--3"></div>
+                <div class="flex__size--1 mob__view--size-3">
+                    <h1>1907</h1>
+                    <p>Chero-Chola, <br />
+                        a cherry flavoured cola,
+                        is introduced.
+                    </p>
+                </div>
+                <div class="flex__size--1"></div>
+            </div>
+        </div>
+        <div id="1940-detail" class="details flex__d">
+            <div class="flex__d flex__d--col mob__view--row timeline-hide">
+                <div class="fadeInLeft t-align--center py-50">
+                    <h1>1940</h1>
+                    <p>
+                        “Best by Taste Test” <br />
+                        publicity campaign
+                        by Holywood celebrities.
+                    </p>
+                </div>
+                <div class="fadeInTop t-align--center"><img src="./../images/timeline/timeline-1950-royalcola.png">
+                </div>
+            </div>
+            <div class="flex__d flex__d--col flex__size-2 flex__d--col timeline-hide">
+                <div><img class="fadeInTop pull-right" src="./../images/timeline/timeline-1940.png"></div>
+                <div class="fadeInRight t-align--center px-200">
+                    <h1>1941</h1>
+                    <p>
+                        Blind taste tests, three decades
+                        before other soft drink brands; RC was the winner
+                        spawning the “Best by Taste Test” slogan.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="1950-detail" class="details flex__d flex__d--col">
+            <div class="flex__d timeline-hide t-align--center">
+                <div class="fadeInLeft flex__size--1">
+                    <h1>1954</h1>
+                    <p>
+                        Royal Crown was the ﬁrst
+                        company to sell soft drinks
+                        in a can, and later the
+                        ﬁrst company to sell a soft
+                        drink in an aluminum can.
+                    </p>
+                </div>
+                <!-- <div class="fadeInTop flex__size--1 pt-50"><img src="./../images/timeline/timeline-1950-royalcola.png">
+                </div> -->
+
+                <div class="flex__d flex__justify--center flex__size--1"><img class="fadeInTop"
+                        src="./../images/timeline/timeline-1950-drinks.png"></div>
+            </div>
+            <div class="flex__d timeline-hide">
+
+                <div class="flex__d flex__justify--center flex__size--1 pt-50"><img class="fadeInBottom"
+                        src="./../images/timeline/timeline-1950-dietrice.png"></div>
+                <div class="fadeInRight flex__size--1 pt-100 t-align--center">
+                    <h1>1958</h1>
+                    <p>
+                        The company
+                        introduced
+                        the ﬁrst diet cola,
+                        Diet Rite.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="1960-detail" class="details flex__d">
+            <div class="timeline-hide flex__d">
+                <div class="fadeInTop"><img src="./../images/timeline/timeline-1960.png"></div>
+            </div>
+            <div class="position-rel timeline-hide flex__d" style="margin-left: 130px;">
+                <div class="fadeInRight-short delay-halfs t-align--right flex__size--1"
+                    style="position: absolute;left: -63px;">
+                    <h1>1967</h1>
+                    <p>Launched in <br />Thailand
+                    </p>
+                </div>
+                <div><img class="fadeInBottom" src="./../images/timeline/timeline-1960-thailandflag.png">
+                </div>
+            </div>
+        </div>
+        <div id="1980-detail" class="details flex__d flex__d--col">
+            <div class="flex__d timeline-hide">
+                <div class="fadeInLeft flex__size--1">
+                    <h1>1980</h1>
+                    <p>Caﬀeine-free cola named <i> RC 100</i>
+                        and sugar/caﬀeine free cola named
+                        <i>RC 100 Sugar Free</i> were introduced</p>
+                </div>
+                <div class="fadeInRight flex__size--1 t-align--right"><img
+                        src="./../images/timeline/timeline-1980-drinks.png"></div>
+            </div>
+            <div class="flex__d flex__align--center timeline-hide mob__view--row px-110 pt-50">
+                <div class="fadeInLeft flex__size--1"><img src="./../images/timeline/timeline-1980.png"></div>
+                <div class="fadeInRight t-align--right flex__size--1">
+                    <h1>1984</h1>
+                    <p>
+                        RC was among the top 5 soft drinks
+                        in the US along side Coke, Pepsi,
+                        Dr. Pepper, and Seven Up.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="2000-detail" class="details flex__d flex__d--col">
+            <div class="flex__d timeline-hide">
+                <div class="flex__d mob__view--col">
+                    <div class="fadeInLeft t-align--right pt-80">
+                        <h1>2001</h1>
+                        <p> Cott Corporation
+                            acquires rights to
+                            RC Cola internationally</p>
+                    </div>
+                    <div class="fadeInTop"><img src="./../images/timeline/timeline-2000.png"></div>
+                </div>
+                <div class="position-rel timeline-hide flex__d" style="margin-left: 170px;">
+                    <div class="fadeInRight-short delay-halfs t-align--right flex__size--1"
+                        style="position: absolute;left: -105px;">
+                        <h1>2009</h1>
+                        <p>Launched in <br />Czech Republic
+                        </p>
+                    </div>
+                    <div><img class="fadeInTop pull-right" src="./../images/timeline/timeline-2000-chezhrepublic.png">
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex__d timeline-hide flex__justify--center">
+                <div>
+                    <div class="fadeInBottom"><img src="./../images/timeline/timeline-2000-world.png"></div>
+                </div>
+                <div class="position-rel timeline-hide flex__d pt-80" style="margin-left: 220px;">
+                    <div class="fadeInRight-short delay-halfs t-align--right flex__size--1 "
+                        style="position: absolute;right: 260px;">
+                        <h1>2003</h1>
+                        <p>Launched in <br />Philippines
+                        </p>
+                    </div>
+                    <div><img class="fadeInBottom pull-right" src="./../images/timeline/timeline-2000-philipines.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="2010-detail" class="details flex__d">
+            <div class="position-rel timeline-hide flex__d">
+                <div class="fadeInRight-short delay-halfs t-align--right flex__size--1"
+                    style="position: absolute;left: -75px;">
+                    <h1>2011</h1>
+                    <p>Launched in <br />UK
+                    </p>
+                </div>
+                <div><img class="fadeInBottom" src="./../images/timeline/timeline-2010-UK-flag.png"></div>
+            </div>
+            <div class="position-rel timeline-hide pt-100 flex__d" style="margin-left: 200px;">
+                <div class="fadeInRight-short delay-halfs t-align--right flex__size--1"
+                    style="position: absolute;left: -75px;">
+                    <h1>2018</h1>
+                    <p>Launched in <br />Nigeria
+                    </p>
+                </div>
+                <div><img class="fadeInBottom" src="./../images/timeline/timeline-2010-Nigeria-flag.png">
+                </div>
+            </div>
+        </div>
+        <div id="2020-detail" class="details flex__d flex__justify--center">
+            <div class="timeline-hide flex__d flex__align--center">
+                <div class="fadeInTop"><img src="./../images/timeline/timeline-2020-2.png"></div>
+            </div>
+            <div class="position-rel timeline-hide flex__d" style="margin-left: 30px;">
+                <div class="fadeInRight-short delay-halfs t-align--right flex__size--1 "
+                    style="position: absolute;left: -68px;">
+                    <h1>2020</h1>
+                    <p>Launched in <br />Nepal
+                    </p>
+                </div>
+                <div><img class="fadeInBottom" src="./../images/timeline/timeline-2020.png"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./../js/about.js"></script>
+            
+        </div>
+    </div>
+
+    <footer class="">
+    <!-- <img src="./images/footer.png" /> -->
+    <div class="canvas-width">
+        <h1 class="m-auto text-upper"><b>mount vita</b></h1>
+        <div class="social__icons mx-auto my-20">
+            <a href="https://www.facebook.com/mountvita" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/mountvita_" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ventura-bottlers-pvt-ltd-2099721a3/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a>
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/mountvita_official/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        <!-- <div class="row px-100 mx-20 my-10 subscribe__container">
+            <div class="col-5">
+                <span class="text-upper t-danger">
+                    <h3><b>newsletter</b></h3>
+                </span>
+                <p>
+                    Subscribe to our newsletter and get information about our weekly and monthly offer
+                </p>
+            </div>
+            <div class="col-7 pl-30 flex__d flex__d--col">
+                <div class="h-40"></div>
+                <div class="px-20 py-10 flex__d flex__justify--between border-1--white">
+                    <div class="wp-100"><input
+                            style="background-color: transparent;border: none;color:white;font-style: italic;width: 100%;"
+                            type="text" placeholder="enter your email address" /></div>
+                    <div class="text-upper t-danger"><a class="subscribe-btn"><b>subscribe</b></a></div>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+    <div class="canvas-width">
+        <div class="flex__d flex__justify--between px-100 mx-30 my-50 navigation">
+            <div class="flex__d--column pr-10">
+                <a href="./../index.html"><img src="./../images/mount-vita-logo3.png" /></a>
+            </div>
+            <div class="flex__d--column">
+                <div><a href="./../pages/about.html"></a>Since 1905</a></div>
+                <div class="py-10"><a href="./../pages/bottlers.html">Bottlers</a></div>
+            </div>
+            <div class="flex__d--column">
+                <div><a href="./../pages/drinks-carbonated.html">Carbonated Drinks</a></div>
+                <div class="py-10"><a href="./../pages/drinks-water.html">Water</a></div>
+            </div>
+            <div class="flex__d--column">
+                <div><a href="./../pages/distributors.html">Find Us</a></div>
+                <div class="py-10"><a href="./../pages/contact.html">Contact</a></div>
+            </div>
+            <div class="pl-50" style="border-left:thin solid white;">
+                <div class="flex__d pl-10">
+                    <div class="font-size--50 pr-20 pt-20">
+                        <i class="fas fa-phone" style="transform:rotate(90deg);"></i>
+                    </div>
+                    <div>
+                        <h5>+977 9801889125 | 01-4254151</h5>
+                        <p>
+                            Level 4, Autoland Building
+                            Teku-12, Kathmandu, Nepal
+                            <br>
+                            info@rccolanepal.com
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="t-align--center">
+            <i>&copy; All Rights Resrved Mount Vita 2020</i>
+        </div>
+    </div>
+</footer>
+    <script type="text/javascript" src="./../js/app.js"></script>
+
+</body>
+
+</html>
